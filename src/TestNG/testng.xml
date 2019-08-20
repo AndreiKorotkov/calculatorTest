@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default Suite" parallel="classes" thread-count="2">
+    <parameter name="valueFromXML" value="10"/>
+    <test name="calculatorTestWithTestNG">
+        <packages>
+            <package name="TestNG"/>
+         </packages>
+    </test> <!-- calculatorTest -->
+</suite> <!-- Default Suite -->
