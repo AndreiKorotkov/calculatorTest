@@ -5,6 +5,6 @@
     <test name="calculatorTestWithTestNG">
         <packages>
             <package name="TestNG"/>
-         </packages>
+        </packages>
     </test> <!-- calculatorTest -->
 </suite> <!-- Default Suite -->

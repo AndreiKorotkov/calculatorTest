@@ -10,13 +10,11 @@ import org.junit.experimental.categories.Category;
  * created by Andrei_Korotkov 8/19/2019
  */
 public class Division {
-
     @Category(DivisionAndSubscriptionInterface.class)
     @Test(expected = NumberFormatException.class)
-    public void checkDivision () {
+    public void checkDivision() {
         Calculator calc = new Calculator();
         long result = calc.div(4, 0);
         Assert.assertEquals(4, result);
     }
-
 }

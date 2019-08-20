@@ -12,5 +12,4 @@ import org.junit.runners.Suite;
 @RunWith(Suite.class)
 @Suite.SuiteClasses({Division.class, Substraction.class})
 public class DivisionAndSubstractionSuite {
-
 }

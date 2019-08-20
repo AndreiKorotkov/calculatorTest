@@ -13,7 +13,7 @@ public class Substraction {
 
     @Category({DivisionAndSubscriptionInterface.class})
     @Test
-    public void checkSub () {
+    public void checkSub() {
         Calculator calc = new Calculator();
         long result = calc.sub(5, 7);
         Assert.assertEquals(-2, result);

@@ -1,7 +1,6 @@
 package Junit.Suites;
 
 import Junit.Addition;
-import Junit.Division;
 import Junit.Interfaces.AdditionAndMultiplicationInterface;
 import Junit.Multiplication;
 import org.junit.experimental.categories.Categories;

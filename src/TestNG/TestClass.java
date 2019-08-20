@@ -7,18 +7,20 @@ import org.testng.annotations.Test;
 /**
  * created by Andrei_Korotkov 8/20/2019
  */
+
 public class TestClass {
-    private int dividend;
-    
-    
-    public TestClass(int number) {
-        dividend = number;
+    private double square;
+    private double root;
+
+    public TestClass(double number, double number2) {
+        square = number;
+        root = number2;
     }
 
     @Test
     public void testFactory() {
         Calculator calculator = new Calculator();
-        long result = calculator.div(dividend, 10);
-        Assert.assertEquals(dividend/10, result);
+        double result = calculator.sqrt(square);
+        Assert.assertEquals(root, result);
     }
 }

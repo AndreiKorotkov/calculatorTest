@@ -10,7 +10,6 @@ import org.junit.experimental.categories.Category;
  * created by Andrei_Korotkov 8/19/2019
  */
 public class Multiplication {
-
     @Category(AdditionAndMultiplicationInterface.class)
     @Test
     public void checkMultiplication () {
@@ -18,5 +17,4 @@ public class Multiplication {
         long result = calc.mult(5, 5);
         Assert.assertEquals(25, result);
     }
-
 }
